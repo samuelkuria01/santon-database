@@ -1,0 +1,15 @@
+current directory: /home/user/Desktop/2024Projects/newcategory/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.17.1/ext/bootsnap
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20240126-59024-hpe60a.rb extconf.rb
+creating Makefile
+
+current directory: /home/user/Desktop/2024Projects/newcategory/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.17.1/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /home/user/Desktop/2024Projects/newcategory/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.17.1/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/user/Desktop/2024Projects/newcategory/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.17.1/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20240126-59024-iq5twh/bootsnap

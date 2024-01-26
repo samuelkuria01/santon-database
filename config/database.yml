@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: localhost
+  username: jujajamaica
+  password: 5723
+  database: santon
+
+development:
+  <<: *default
+  database: santon
+
+test:
+  <<: *default
+  database: santon
+
+production:
+  <<: *default
+  database: santon

@@ -1,0 +1,19 @@
+<p style="color: green"><%= notice %></p>
+
+
+<%= render @product %>
+<%= link_to 'All Products', category_products_path(@category) %>
+
+
+<h2><%= @product.title %></h2>
+<p><%= @product.price %></p>
+<p><%= @product.image %></p>
+
+
+
+<div>
+<%= link_to "Edit this product", edit_category_product_path(@product.category, @product) %> |
+  <%= link_to "Back to products", category_products_path(@category) %>
+
+<%= button_to "Destroy this product", category_product_path(@category, @product), method: :delete, data: { confirm: "Are you sure?" } %>
+</div>
